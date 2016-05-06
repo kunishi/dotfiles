@@ -5,7 +5,7 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # OPAM (OCaml Package Manager) configuration
-. $HOME/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
+if which opam > /dev/null; then eval `opam config env`; fi
 
 # pyenv + virtualenv
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
