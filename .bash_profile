@@ -22,11 +22,6 @@ fi
 # OPAM (OCaml Package Manager) configuration
 if which opam > /dev/null; then eval `opam config env`; fi
 
-# brew file
-if [ -f $(brew --prefix)/etc/brew-wrap ]; then
-  . $(brew --prefix)/etc/brew-wrap
-fi
-
 # bash-completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
