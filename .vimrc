@@ -2,8 +2,8 @@ set gfn=Osaka−等幅:h16
 syntax on
 set autoindent
 set smartindent
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab
 
 if has('vim_starting')
