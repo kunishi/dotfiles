@@ -1,4 +1,4 @@
-set gfn=Osaka−等幅:h14
+set gfn=Osaka−等幅:h16
 syntax on
 set autoindent
 set smartindent
