@@ -6,12 +6,12 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
-if has('vim_starting')
-  set nocompatible		" Be improved
-  set runtimepath+=~/.vim/bundle/neobundle.vim/
+if &compatible
+  set nocompatible
 endif
+set runtimepath+=~/.vim/bundle/neobundle.vim/
 
-call neobundle#rc(expand('~/.vim/bundle/'))
+call neobundle#begin(expand('~/.vim/bundle/'))
 
 NeoBundleFetch 'Shougo/neobundle.vim'
 
@@ -24,6 +24,8 @@ NeoBundle 'L9'
 NeoBundle 'FuzzyFinder'
 NeoBundle 'rails.vim'
 NeoBundle 'hynek/vim-python-pep8-indent'
+
+call neobundle#end()
 
 filetype plugin indent on
 
