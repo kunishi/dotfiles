@@ -17,6 +17,11 @@ if [ -f ${HOME}/perl5/perlbrew/etc/bashrc ]; then
   source ${HOME}/perl5/perlbrew/etc/bashrc
 fi
 
+# phpbrew
+if [ -f ${HOME}/.phpbrew/bashrc ]; then
+  source ${HOME}/.phpbrew/bashrc
+fi
+
 # OPAM (OCaml Package Manager) configuration
 if which opam > /dev/null; then eval `opam config env`; fi
 
