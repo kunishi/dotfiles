@@ -2,9 +2,19 @@ set gfn=Osaka−等幅:h16
 syntax on
 set autoindent
 set smartindent
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set expandtab
+
+augroup fileTypeIndent
+  autocmd!
+  autocmd BufNewFile,BufRead *.py setlocal tabstop=4 shiftwidth=4 softtabstop=4
+  autocmd BufNewFile,BufRead *.cpp setlocal tabstop=4 shiftwidth=4 softtabstop=4
+  autocmd BufNewFile,BufRead *.hpp setlocal tabstop=4 shiftwidth=4 softtabstop=4
+  autocmd BufNewFile,BufRead *.c setlocal tabstop=4 shiftwidth=4 softtabstop=4
+  autocmd BufNewFile,BufRead *.h setlocal tabstop=4 shiftwidth=4 softtabstop=4
+augroup END
 
 if &compatible
   set nocompatible
