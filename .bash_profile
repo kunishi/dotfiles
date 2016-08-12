@@ -11,12 +11,15 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # pyenv, pyenv-virtualenv
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
-# pyenv-virtualenvwrapper
-#if which pyenv-virtualenvwrapper > /dev/null; then eval "$(pyenv virtualenvwrapper)"; fi
 
 # perlbrew
 if [ -f ${HOME}/perl5/perlbrew/etc/bashrc ]; then
   source ${HOME}/perl5/perlbrew/etc/bashrc
+fi
+
+# phpbrew
+if [ -f ${HOME}/.phpbrew/bashrc ]; then
+  source ${HOME}/.phpbrew/bashrc
 fi
 
 # OPAM (OCaml Package Manager) configuration
