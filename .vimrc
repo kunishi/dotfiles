@@ -1,4 +1,6 @@
-set gfn=Osaka−等幅:h16
+if has("mac")
+  set gfn=Osaka−等幅:h16
+endif
 syntax on
 set autoindent
 set smartindent
