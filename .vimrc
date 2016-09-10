@@ -13,6 +13,7 @@ augroup fileTypeIndent
   autocmd!
   autocmd BufNewFile,BufRead *.pl setlocal tabstop=4 shiftwidth=4 softtabstop=4
   autocmd BufNewFile,BufRead *.pm setlocal tabstop=4 shiftwidth=4 softtabstop=4
+  autocmd BufNewFile,BufRead *.t setlocal tabstop=4 shiftwidth=4 softtabstop=4
   autocmd BufNewFile,BufRead *.py setlocal tabstop=4 shiftwidth=4 softtabstop=4
   autocmd BufNewFile,BufRead *.cpp setlocal tabstop=4 shiftwidth=4 softtabstop=4
   autocmd BufNewFile,BufRead *.hpp setlocal tabstop=4 shiftwidth=4 softtabstop=4
