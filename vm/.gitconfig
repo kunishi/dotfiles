@@ -1,0 +1,11 @@
+[user]
+	email = t.kunishi@gmail.com
+	name = Takeo Kunishima
+[filter "lfs"]
+  clean = git lfs clean %f
+  smudge = git lfs smudge %f
+  required = true
+[alias]
+	delete-merged-branches = !git branch --merged | grep -v \\* | xargs -I % git branch -d %
+[core]
+	editor = vim -c \"set fenc=utf-8\"
