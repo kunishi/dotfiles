@@ -120,7 +120,6 @@ cask 'audio-hijack'
 cask 'banktivity'
 cask 'bittorrent-sync'
 cask 'chefdk'
-cask 'coteditor'
 cask 'dayone-cli'
 cask 'dropbox'
 cask 'firefox-ja'
@@ -162,35 +161,36 @@ cask 'virtualbox'
 cask 'vlc'
 cask 'wordpresscom'
 cask 'xld'
-mas 'LINE', id: 539883307
-mas 'MultiMarkdown Composer', id: 593294811
-mas 'Evernote', id: 406056744
+mas 'SoundCloud', id: 412754595
+mas 'GarageBand', id: 682658836
+mas 'OmniFocus', id: 867299399
+mas 'Xcode', id: 497799835
+mas 'Pixelmator', id: 407963104
+mas 'Growl', id: 467939042
+mas 'Install OS X El Capitan', id: 1018109117
+mas 'MARKETSPEED', id: 946680495
 mas 'CloudApp', id: 417602904
+mas 'StuffIt Expander', id: 405580712
+mas 'Aperture', id: 408981426
+mas 'Pocket', id: 568494494
+mas 'iPhoto', id: 408981381
+mas 'Twitter', id: 409789998
+mas 'MindNode Pro', id: 402398561
+mas 'MultiMarkdown Composer', id: 593294811
+mas 'Coda 2', id: 499340368
+mas 'OneDrive', id: 823766827
+mas 'Pages', id: 409201541
+mas 'Day One', id: 1055511498
+mas 'Slack', id: 803453959
+mas 'Evernote', id: 406056744
+mas 'Kindle', id: 405399194
+mas 'ScanSnap Cloud', id: 1035516352
+mas 'iMovie', id: 408981434
+mas 'CotEditor', id: 1024640650
+mas 'Numbers', id: 409203825
+mas 'LINE', id: 539883307
+mas 'Skitch', id: 425955336
 mas 'iA Writer', id: 775737590
 mas 'Keynote', id: 409183694
-mas 'Kindle', id: 405399194
-mas 'MARKETSPEED', id: 946680495
-mas 'OneDrive', id: 823766827
-mas 'Twitter', id: 409789998
-mas 'Skitch', id: 425955336
-mas 'iPhoto', id: 408981381
-mas 'GarageBand', id: 682658836
-mas 'Install OS X El Capitan', id: 1018109117
-mas 'Kobito', id: 896624060
-mas 'Aperture', id: 408981426
-mas 'StuffIt Expander', id: 405580712
-mas 'Growl', id: 467939042
-mas 'Xcode', id: 497799835
-mas 'SoundCloud', id: 412754595
-mas 'Numbers', id: 409203825
-mas 'Pages', id: 409201541
-mas 'OmniFocus', id: 867299399
-mas 'iMovie', id: 408981434
 mas 'Hype', id: 436931759
-mas 'Pixelmator', id: 407963104
-mas 'ScanSnap Cloud', id: 1035516352
-mas 'Slack', id: 803453959
-mas 'Day One', id: 1055511498
-mas 'Coda 2', id: 499340368
-mas 'MindNode Pro', id: 402398561
-mas 'Pocket', id: 568494494
+mas 'Kobito', id: 896624060
