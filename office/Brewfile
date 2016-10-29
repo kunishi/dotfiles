@@ -14,7 +14,6 @@ tap 'homebrew/science'
 tap 'homebrew/versions'
 tap 'peco/peco'
 cask 'java'
-cask 'xquartz'
 brew 'docbook'
 brew 'docbook-xsl'
 brew 'asciidoc'
@@ -27,7 +26,6 @@ brew 're2c'
 brew 'gringo'
 brew 'aspcud'
 brew 'autoconf'
-brew 'xz'
 brew 'automake'
 brew 'bash-completion'
 brew 'bats'
@@ -67,6 +65,7 @@ brew 'doxygen'
 brew 'eigen'
 brew 'libtool'
 brew 'jpeg'
+brew 'xz'
 brew 'libtiff'
 brew 'wxmac'
 brew 'erlang'
@@ -148,8 +147,6 @@ brew 'pwgen'
 brew 'pyenv'
 brew 'pyenv-virtualenv'
 brew 'qt'
-brew 'shiboken'
-brew 'pyside'
 brew 'ruby-build'
 brew 'rbenv'
 brew 'ruby'
@@ -196,20 +193,18 @@ cask 'alfred'
 cask 'android-studio'
 cask 'appcleaner'
 cask 'atom'
-cask 'bittorrent-sync'
 cask 'brackets'
 cask 'chefdk'
 cask 'coteditor'
 cask 'drobo-dashboard'
 cask 'dropbox'
-cask 'firefox-ja'
+cask 'firefox'
 cask 'flux'
 cask 'font-source-han-code-jp'
 cask 'gitbook-editor'
 cask 'github-desktop'
 cask 'gmvault'
 cask 'google-drive'
-cask 'google-earth'
 cask 'google-hangouts'
 cask 'google-photos-backup'
 cask 'google-web-designer'
@@ -227,13 +222,12 @@ cask 'omnioutliner'
 cask 'omnipresence'
 cask 'opera'
 cask 'processing'
+cask 'resilio-sync'
 cask 'scrivener'
 cask 'send-to-kindle'
 cask 'skype'
 cask 'slack'
 cask 'sourcetree'
-cask 'sublime-text-dev'
-cask 'textmate'
 cask 'thunderbird-ja'
 cask 'transmit'
 cask 'unetbootin'
@@ -242,33 +236,34 @@ cask 'virtualbox'
 cask 'visual-studio-code'
 cask 'vivaldi'
 cask 'vlc'
-cask 'wordpresscom'
-mas 'Day One (2.1.0)', id: 1055511498
+cask 'wireshark'
+mas 'Day One (2.1.1)', id: 1055511498
 mas 'MultiMarkdown Composer (2.9)', id: 593294811
-mas 'Evernote (6.9.1)', id: 406056744
+mas 'Evernote (6.10)', id: 406056744
 mas 'CloudApp (4.1.1)', id: 417602904
 mas 'iA Writer (3.2.6)', id: 775737590
-mas 'Keynote (7.0)', id: 409183694
+mas 'Keynote (7.0.5)', id: 409183694
 mas 'OneDrive (17.3.6518)', id: 823766827
 mas 'iPhoto (9.6.1)', id: 408981381
-mas 'GarageBand (10.1.2)', id: 682658836
+mas 'GarageBand (10.1.3)', id: 682658836
 mas 'Kobito (2.3.8)', id: 896624060
 mas 'iBooks Author (2.5)', id: 490152466
 mas 'Pixelmator (3.5.1)', id: 407963104
-mas '1Password (6.3.3)', id: 443987910
+mas '1Password (6.3.5)', id: 443987910
 mas 'Growl (2.1.3)', id: 467939042
-mas 'OmniFocus (2.7.1)', id: 867299399
-mas 'Numbers (4.0)', id: 409203825
+mas 'OmniFocus (2.7.2)', id: 867299399
+mas 'Numbers (4.0.5)', id: 409203825
 mas 'ScanSnap Cloud (1.1.12)', id: 1035516352
 mas 'Skitch (2.7.8)', id: 425955336
-mas 'Pages (6.0)', id: 409201541
+mas 'Pages (6.0.5)', id: 409201541
 mas 'SoundCloud (1.3.2)', id: 412754595
 mas 'StuffIt Expander (15.0.7)', id: 405580712
-mas 'iMovie (10.1.2)', id: 408981434
+mas 'iMovie (10.1.3)', id: 408981434
 mas 'Hype (1.6.2)', id: 436931759
-mas 'Twitter (4.2.2)', id: 409789998
-mas 'CotEditor (2.5.7)', id: 1024640650
-mas 'Slack (2.0.3)', id: 803453959
+mas 'Twitter (4.2.4)', id: 409789998
+mas 'CotEditor (3.0.3)', id: 1024640650
+mas 'OmniGraffle (7.0.3)', id: 1142578753
+mas 'Slack (2.3.1)', id: 803453959
 mas 'Coda 2 (2.0.14)', id: 499340368
 mas 'QREncoder (1.5)', id: 452695239
 mas 'MindNode Pro (1.11.5)', id: 402398561
