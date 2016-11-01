@@ -3,7 +3,7 @@ export LESSCHARSET=utf-8
 export GOPATH=$HOME
 
 # nodebrew
-export PATH=$HOME/.nodebrew/current/bin:$PATH
+export PATH=$HOME/.nodebrew/current/bin:$GOPATH/bin:$PATH
 
 # rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
