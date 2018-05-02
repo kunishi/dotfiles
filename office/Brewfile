@@ -1,270 +1,262 @@
-tap 'argon/mas'
-tap 'caskroom/cask'
-tap 'caskroom/fonts'
-tap 'caskroom/versions'
-tap 'go-delve/delve'
-tap 'homebrew/binary'
-tap 'homebrew/boneyard'
-tap 'homebrew/bundle'
-tap 'homebrew/completions'
-tap 'homebrew/core'
-tap 'homebrew/dupes'
-tap 'homebrew/php'
-tap 'homebrew/python'
-tap 'homebrew/science'
-tap 'homebrew/versions'
-tap 'peco/peco'
-cask 'java'
-brew 'docbook'
-brew 'docbook-xsl'
-brew 'asciidoc'
-brew 'icu4c'
-brew 'boost'
-brew 'clasp'
-brew 'sphinx-doc'
-brew 'cmake'
-brew 're2c'
-brew 'gringo'
-brew 'aspcud'
-brew 'autoconf'
-brew 'automake'
-brew 'bash-completion'
-brew 'bats'
-brew 'binutils'
-brew 'boost-python'
-brew 'libpng'
-brew 'freetype'
-brew 'pkg-config'
-brew 'fontconfig'
-brew 'gettext'
-brew 'libffi'
-brew 'pcre'
-brew 'glib'
-brew 'pixman'
-brew 'cairo'
-brew 'ocaml'
-brew 'ocamlbuild'
-brew 'camlp4'
-brew 'chromedriver'
-brew 'libsigsegv'
-brew 'readline'
-brew 'clisp'
-brew 'clojurescript'
-brew 'gmp'
-brew 'isl'
-brew 'cloog'
-brew 'cpputest'
-brew 'openssl'
-brew 'curl'
-brew 'libgpg-error'
-brew 'libassuan'
-brew 'libgcrypt'
-brew 'libksba'
-brew 'pth'
-brew 'dirmngr'
-brew 'doxygen'
-brew 'eigen'
-brew 'libtool'
-brew 'jpeg'
-brew 'xz'
-brew 'libtiff'
-brew 'wxmac'
-brew 'erlang'
-brew 'elixir'
-brew 'faac'
-brew 'lame'
-brew 'libogg'
-brew 'libvorbis'
-brew 'snappy'
-brew 'giflib'
-brew 'webp'
-brew 'git'
-brew 'x264'
-brew 'xvid'
-brew 'ffmpeg'
-brew 'flac'
-brew 'gauche'
-brew 'mpfr'
-brew 'libmpc'
-brew 'gcc'
-brew 'gdbm'
-brew 'sqlite'
-brew 'python'
-brew 'gdb'
-brew 'gflags'
-brew 'gibo'
-brew 'gist'
-brew 'git-flow'
-brew 'go'
-brew 'git-lfs'
-brew 'global'
-brew 'glog'
-brew 'pinentry'
-brew 'gpg-agent'
-brew 'libusb'
-brew 'libusb-compat'
-brew 'gnupg2'
-brew 'gperftools'
-brew 'gsl'
-brew 'mercurial'
-brew 'hg-flow'
-brew 'hub'
-brew 'ilmbase'
-brew 'openexr'
-brew 'perl'
-brew 'imagemagick'
-brew 'node', args: ['with-full-icu']
-brew 'ios-sim'
-brew 'libsndfile'
-brew 'julius'
-brew 'leiningen'
-brew 'leveldb'
-brew 'libevent'
-brew 'liblinear'
-brew 'libvo-aacenc'
-brew 'libxml2'
-brew 'libyaml'
-brew 'lmdb'
-brew 'lv'
-brew 'mackup'
-brew 'mhash'
-brew 'mcrypt'
-brew 'mecab'
-brew 'mecab-ipadic'
-brew 'mecab-unidic'
-brew 'mongodb'
-brew 'mysql'
-brew 'nkf'
-brew 'nodebrew'
-brew 'opam'
-brew 'open-sp'
-brew 'ossp-uuid'
-brew 'p7zip'
-brew 'pandoc'
-brew 'peco'
-brew 'postgresql'
-brew 'potrace'
-brew 'protobuf'
-brew 'pwgen'
-brew 'pyenv'
-brew 'pyenv-virtualenv'
-brew 'qt'
-brew 'ruby-build'
-brew 'rbenv'
-brew 'ruby'
-brew 'sbt'
-brew 'scala'
-brew 'selenium-server-standalone'
-brew 'smlnj'
-brew 'ssh-copy-id'
-brew 'swfmill'
-brew 'szip'
-brew 'tidy-html5'
-brew 'tree'
-brew 'uncrustify'
-brew 'unixodbc'
-brew 'vim'
-brew 'wget'
-brew 'xmlsh'
-brew 'argon/mas/mas'
-brew 'go-delve/delve/delve'
-brew 'homebrew/completions/apm-bash-completion'
-brew 'homebrew/dupes/zlib'
-brew 'homebrew/php/php71'
-brew 'homebrew/php/composer'
-brew 'homebrew/php/boris'
-brew 'homebrew/php/phpbrew'
-brew 'homebrew/php/phpcpd'
-brew 'homebrew/php/phploc'
-brew 'homebrew/php/phpmd'
-brew 'homebrew/php/phpunit'
-brew 'homebrew/php/phpunit-skeleton-generator'
-brew 'homebrew/science/openblas'
-brew 'homebrew/python/numpy'
-brew 'homebrew/science/hdf5'
-brew 'homebrew/science/opencv'
-brew 'homebrew/versions/gmp4'
-brew 'homebrew/versions/isl011'
-brew 'homebrew/versions/cloog018'
-brew 'homebrew/versions/mpfr2'
-brew 'homebrew/versions/libmpc08'
-brew 'homebrew/versions/gcc49'
-brew 'homebrew/versions/perl516'
-cask 'adobe-air'
-cask 'adobe-creative-cloud'
-cask 'alfred'
-cask 'android-studio'
-cask 'appcleaner'
-cask 'atom'
-cask 'brackets'
-cask 'chefdk'
-cask 'coteditor'
-cask 'drobo-dashboard'
-cask 'dropbox'
-cask 'firefox'
-cask 'flux'
-cask 'font-source-han-code-jp'
-cask 'gitbook-editor'
-cask 'github-desktop'
-cask 'gmvault'
-cask 'google-drive'
-cask 'google-hangouts'
-cask 'google-photos-backup'
-cask 'google-web-designer'
-cask 'handbrake'
-cask 'haskell-platform'
-cask 'imagealpha'
-cask 'imageoptim'
-cask 'iterm2'
-cask 'libreoffice'
-cask 'mactex'
-cask 'macvim'
-cask 'mendeley-desktop'
-cask 'omnigraffle'
-cask 'omnioutliner'
-cask 'omnipresence'
-cask 'opera'
-cask 'processing'
-cask 'resilio-sync'
-cask 'scrivener'
-cask 'send-to-kindle'
-cask 'skype'
-cask 'slack'
-cask 'sourcetree'
-cask 'texstudio'
-cask 'thunderbird-ja'
-cask 'transmit'
-cask 'unetbootin'
-cask 'vagrant'
-cask 'virtualbox'
-cask 'visual-studio-code'
-cask 'vivaldi'
-cask 'vlc'
-cask 'wireshark'
-mas 'Day One', id: 1055511498
-mas 'MultiMarkdown Composer', id: 593294811
-mas 'Evernote', id: 406056744
-mas 'CloudApp', id: 417602904
-mas 'iA Writer', id: 775737590
-mas 'OneDrive', id: 823766827
-mas 'iPhoto', id: 408981381
-mas 'GarageBand', id: 682658836
-mas 'Kobito', id: 896624060
-mas 'iBooks Author', id: 490152466
-mas 'Pixelmator', id: 407963104
-mas '1Password', id: 443987910
-mas 'Growl', id: 467939042
-mas 'OmniFocus', id: 867299399
-mas 'ScanSnap Cloud', id: 1035516352
-mas 'Skitch', id: 425955336
-mas 'Xcode', id: 497799835
-mas 'SoundCloud', id: 412754595
-mas 'StuffIt Expander', id: 405580712
-mas 'Twitter', id: 409789998
-mas 'iMovie', id: 408981434
-mas 'Hype', id: 436931759
-mas 'CotEditor', id: 1024640650
-mas 'Coda 2', id: 499340368
-mas 'QREncoder', id: 452695239
-mas 'MindNode Pro', id: 402398561
-mas 'Pocket', id: 568494494
+tap "homebrew/dupes"
+tap "homebrew/completions"
+tap "homebrew/science"
+tap "homebrew/core"
+tap "homebrew/php"
+tap "homebrew/versions"
+tap "homebrew/binary"
+tap "homebrew/boneyard"
+tap "homebrew/python"
+tap "homebrew/bundle"
+tap "go-delve/delve"
+tap "caskroom/drivers"
+tap "caskroom/fonts"
+tap "caskroom/versions"
+tap "caskroom/cask"
+tap "argon/mas"
+tap "ethereum/ethereum"
+cask "java"
+cask "osxfuse"
+brew "apm-bash-completion"
+brew "openssl"
+brew "docbook"
+brew "asciidoc"
+brew "aspcud"
+brew "autoconf"
+brew "automake"
+brew "bash-completion"
+brew "bats"
+brew "binutils"
+brew "boost-python"
+brew "brew-cask-completion"
+brew "freetype"
+brew "fontconfig"
+brew "gettext"
+brew "libffi"
+brew "pcre"
+brew "glib"
+brew "pixman"
+brew "cairo"
+brew "chromedriver"
+brew "libsigsegv"
+brew "readline"
+brew "clisp"
+brew "clojure"
+brew "clojurescript"
+brew "gmp"
+brew "cloog"
+brew "cmake"
+brew "composer"
+brew "cpputest"
+brew "curl"
+brew "go"
+brew "dep"
+brew "libgpg-error"
+brew "libgcrypt"
+brew "libksba"
+brew "pth"
+brew "dirmngr"
+brew "docbook-xsl"
+brew "doxygen"
+brew "eigen"
+brew "wxmac"
+brew "elixir"
+brew "faac"
+brew "lame"
+brew "xvid"
+brew "flac"
+brew "gauche"
+brew "gdb"
+brew "gflags"
+brew "gibo"
+brew "giflib"
+brew "gist"
+brew "git"
+brew "git-flow"
+brew "git-lfs"
+brew "global"
+brew "glog"
+brew "gmail-backup"
+brew "gmp@4"
+brew "libusb"
+brew "pinentry"
+brew "gnupg"
+brew "gperftools"
+brew "gpg-agent"
+brew "libtool"
+brew "graphicsmagick"
+brew "gsl"
+brew "szip"
+brew "hdf5"
+brew "sqlite"
+brew "python@2"
+brew "mercurial"
+brew "hg-flow"
+brew "hub"
+brew "hugo"
+brew "mecab"
+brew "mecab-ipadic", args: ["with-charset="]
+brew "hyperestraier", args: ["with-mecab"]
+brew "ilmbase"
+brew "ios-sim"
+brew "isl@0.12"
+brew "jenv"
+brew "libogg"
+brew "libvorbis"
+brew "libsndfile"
+brew "julius"
+brew "kakasi"
+brew "kotlin"
+brew "leiningen"
+brew "leveldb"
+brew "libevent"
+brew "liblinear"
+brew "mpfr@2"
+brew "libmpc@0.8"
+brew "libusb-compat"
+brew "libvo-aacenc"
+brew "libxml2"
+brew "libyaml"
+brew "lmdb"
+brew "lv"
+brew "mackup"
+brew "mhash"
+brew "mcrypt"
+brew "mecab-unidic"
+brew "mongodb"
+brew "mysql"
+brew "namazu", args: ["with-japanese"]
+brew "nkf"
+brew "nodebrew"
+brew "ntfs-3g"
+brew "xz"
+brew "numpy"
+brew "opam"
+brew "open-sp"
+brew "openblas"
+brew "openexr"
+brew "opencv"
+brew "ossp-uuid"
+brew "p7zip"
+brew "pandoc"
+brew "peco"
+brew "unixodbc"
+brew "webp"
+brew "php@7.1"
+brew "phpunit"
+brew "pkg-config"
+brew "postgresql"
+brew "potrace"
+brew "protobuf"
+brew "pwgen"
+brew "pyenv"
+brew "pyenv-virtualenv"
+brew "qt"
+brew "ruby-build"
+brew "rbenv"
+brew "re2c"
+brew "rsync"
+brew "sbt"
+brew "scala"
+brew "selenium-server-standalone"
+brew "smartmontools"
+brew "smlnj"
+brew "sphinx-doc"
+brew "ssh-copy-id"
+brew "swfmill"
+brew "tidy-html5"
+brew "tree"
+brew "uncrustify"
+brew "vim"
+brew "wget"
+brew "xmlsh"
+brew "zlib"
+brew "argon/mas/mas"
+brew "go-delve/delve/delve"
+cask "adobe-air"
+cask "adobe-creative-cloud"
+cask "alfred"
+cask "android-studio"
+cask "appcleaner"
+cask "atom"
+cask "brackets"
+cask "chefdk"
+cask "coteditor"
+cask "dayone-cli"
+cask "docker"
+cask "dropbox"
+cask "evernote"
+cask "firefox"
+cask "gitbook-editor"
+cask "github-desktop"
+cask "gmvault"
+cask "google-backup-and-sync"
+cask "google-hangouts"
+cask "google-web-designer"
+cask "handbrake"
+cask "haskell-platform"
+cask "imagealpha"
+cask "imageoptim"
+cask "iterm2"
+cask "lacaille"
+cask "libreoffice"
+cask "mactex"
+cask "macvim"
+cask "mendeley-desktop"
+cask "omnigraffle"
+cask "omnioutliner"
+cask "omnipresence"
+cask "processing"
+cask "rember"
+cask "resilio-sync"
+cask "scrivener"
+cask "sigil"
+cask "skype"
+cask "slack"
+cask "sourcetree"
+cask "texstudio"
+cask "transmit"
+cask "unetbootin"
+cask "vagrant"
+cask "virtualbox"
+cask "virtualbox-extension-pack"
+cask "visual-studio-code"
+cask "vivaldi"
+cask "vlc"
+cask "wireshark"
+cask "caskroom/drivers/drobo-dashboard"
+cask "caskroom/fonts/font-inconsolata"
+cask "caskroom/fonts/font-noto-sans"
+cask "caskroom/fonts/font-noto-sans-cjk"
+cask "caskroom/fonts/font-noto-serif"
+cask "caskroom/fonts/font-noto-serif-cjk"
+cask "caskroom/fonts/font-source-han-code-jp"
+cask "caskroom/fonts/font-source-han-sans"
+mas "1Password", id: 443987910
+mas "CloudApp", id: 417602904
+mas "Coda 2", id: 499340368
+mas "Day One", id: 1055511498
+mas "GarageBand", id: 682658836
+mas "Hype", id: 436931759
+mas "iA Writer", id: 775737590
+mas "iBooks Author", id: 490152466
+mas "iMovie", id: 408981434
+mas "iPhoto", id: 408981381
+mas "Keynote", id: 409183694
+mas "Kobito", id: 896624060
+mas "MindNode Pro", id: 402398561
+mas "MultiMarkdown Composer", id: 593294811
+mas "Numbers", id: 409203825
+mas "OmniFocus", id: 867299399
+mas "OneDrive", id: 823766827
+mas "Pages", id: 409201541
+mas "Pixelmator", id: 407963104
+mas "Pocket", id: 568494494
+mas "QREncoder", id: 452695239
+mas "ScanSnap Cloud", id: 1035516352
+mas "Skitch", id: 425955336
+mas "SoundCloud", id: 412754595
+mas "StuffIt Expander", id: 405580712
+mas "Trello", id: 1278508951
+mas "Twitter", id: 409789998
+mas "Xcode", id: 497799835

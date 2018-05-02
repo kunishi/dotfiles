@@ -1,6 +1,7 @@
 export LANG=ja_JP.UTF-8
 export LESSCHARSET=utf-8
-export GOPATH=$HOME
+
+export PATH="/usr/local/sbin:$PATH"
 
 # nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$GOPATH/bin:$PATH
